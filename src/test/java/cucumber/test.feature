@@ -10,9 +10,10 @@ Feature: Purchase the order from Ecommerce Website
   Scenario Outline: Positive Test of Submitting the order
   
     Given Logged in with username <name> and password <password>
+     When I add product <productName> to Cart
 
 
     Examples: 
-      | name  								|  password		    |	
-      | komalhpatil@gmail.com |  Rahul@123    | 
+      | name  								|  password		    |	productName |
+      | komalhpatil@gmail.com |  Rahul@123    | ZARA COAT 3 | 
 
