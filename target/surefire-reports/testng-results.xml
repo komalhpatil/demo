@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-16T10:55:02Z" name="Surefire suite" finished-at="2026-01-16T10:55:37Z" duration-ms="34775">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ProjectKP.myproject.TestRunner@32a068d1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-01-16T10:55:02Z" name="Surefire test" finished-at="2026-01-16T10:55:37Z" duration-ms="34775">
+      <class name="ProjectKP.myproject.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:ProjectKP.myproject.TestRunner@32a068d1]" started-at="2026-01-16T10:55:02Z" name="setUpClass" finished-at="2026-01-16T10:55:02Z" duration-ms="440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3fd2322d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ProjectKP.myproject.TestRunner@32a068d1]" started-at="2026-01-16T10:55:02Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-16T10:55:15Z" duration-ms="12659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive Test of login to linked in to view the profile"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Linkedin to view the profile"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ProjectKP.myproject.TestRunner@32a068d1]" started-at="2026-01-16T10:55:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-16T10:55:23Z" duration-ms="8415" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive Test of login to linked in to view the profile"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Linkedin to view the profile"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".SlmrpVYEbcbnvjbHDGxhRrpXyjPpzCPuDgPA"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da5e000f374109632a8bf2049adb5981, findElement {value=SlmrpVYEbcbnvjbHDGxhRrpXyjPpzCPuDgPA, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54907}, goog:processID: 25408, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54907/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da5e000f374109632a8bf2049adb5981]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".SlmrpVYEbcbnvjbHDGxhRrpXyjPpzCPuDgPA"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da5e000f374109632a8bf2049adb5981, findElement {value=SlmrpVYEbcbnvjbHDGxhRrpXyjPpzCPuDgPA, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54907}, goog:processID: 25408, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54907/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da5e000f374109632a8bf2049adb5981
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at ProjectKP.myproject.Helper.viewProfile(Helper.java:54)
+at ProjectKP.myproject.Stepdef.User_clicks_on_view_profile(Stepdef.java:30)
+at ✽.User clicks on view profile name Komal Patil is displayed(file:///C:/Users/DELL/eclipse-workspace/myproject/src/test/resources/Test.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:ProjectKP.myproject.TestRunner@32a068d1]" started-at="2026-01-16T10:55:23Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-16T10:55:37Z" duration-ms="13202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive Test of login to linked in to view the profile"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Linkedin to view the profile"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:ProjectKP.myproject.TestRunner@32a068d1]" started-at="2026-01-16T10:55:37Z" name="tearDownClass" finished-at="2026-01-16T10:55:37Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ProjectKP.myproject.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
